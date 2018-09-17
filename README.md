@@ -15,8 +15,7 @@ Matrix Log has following projects
 CLI application which can parse very large log files, log file will be splited in the smaller files for the reading purpose, batch size its 10000 lines, with this approach we can have much faster reading and in combination with yield we can not have some memory usage errors. When we start with import we will read the last entered line and the script will start from the next one.
 ### Usage
 ```sh
-$ php application.php {filePath}
-$ php application.php {filePath}
+$ php application.php app:import-logs {filePath}
 ```
 Run Unit tests
 ```sh
