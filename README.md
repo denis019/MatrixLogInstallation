@@ -81,5 +81,6 @@ php application.php app:import-logs /var/www/matrix-log/MatrixLogImporter/tests/
 ## TODO
  - handle better different environment for Matrix Log Importer
  - improve Repostiory abstraction for Matrix Log Importer
+ - add config for Matrix Log Importer
 
 
